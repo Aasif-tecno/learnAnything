@@ -1,0 +1,34 @@
+<div class="course_modules list-group-item">
+  <div class="course_module_heading" (click)="onExpand()">
+    <div class="d-flex align-items-center">
+      <img
+        alt="avatar"
+        class="course_module_avatar me-3"
+        src="{{ module.iconPath }}"
+      />
+      <h5>{{ module.heading }}</h5>
+    </div>
+    <p class="text-muted">3/{{ module.lectures }}</p>
+  </div>
+  <span class="caret"></span>
+  <div class="collapse" [ngClass]="{ expand: expand }">
+    <ul class="timeline">
+      <li class="event">
+        <h3>1.1 Lesson</h3>
+        <p>What is Program?.</p>
+      </li>
+      <li class="event">
+        <h3>1.2 Lesson</h3>
+        <p>Simple Operation.</p>
+      </li>
+      <li class="event">
+        <h3>1.3 Lessons</h3>
+        <p>Floats!</p>
+      </li>
+      <li class="event">
+        <h3>1.4 Lesson</h3>
+        <p>Exponentiation.</p>
+      </li>
+    </ul>
+  </div>
+</div>

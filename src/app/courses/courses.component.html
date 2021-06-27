@@ -1,0 +1,27 @@
+<div class="course-container">
+  <div class="course__upper">
+    <div class="semi-round"></div>
+    <div class="course__upper__back">
+      <div class="course__upper__back-content">
+        <div class="icon">
+          <span class="caret"></span>
+          <!-- <img src="https://img.icons8.com/ios-glyphs/30/ffffff/back.png" /> -->
+        </div>
+        <!-- <div class="text m-2" routerLink="/courses">Back to courses</div> -->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="text-center text-white mb-5 pb-3">
+      What would you like to <span class="px-2 bg-warning">Learn?</span>
+    </h2>
+    <div class="courses">
+      <app-course-item
+        *ngFor="let course of courses; let i = index"
+        [course]="course"
+        [index]="i"
+      ></app-course-item>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

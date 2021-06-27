@@ -1,0 +1,29 @@
+<div class="courses">
+  <div class="course__upper">
+    <div class="semi-round"></div>
+    <div class="course__upper__back">
+      <div class="course__upper__back-content" routerLink="/courses">
+        <div class="icon">
+          <span class="caret"></span>
+          <img src="https://img.icons8.com/ios-glyphs/30/ffffff/back.png" />
+        </div>
+        <div class="text m-2">Back to courses</div>
+      </div>
+    </div>
+  </div>
+  <div class="course-container">
+    <div class="header">
+      <img src="{{ course.iconPath }}" alt="" />
+      <div class="header_content">
+        <h2>{{ course.name }}</h2>
+        <p>{{ course.description }}</p>
+      </div>
+    </div>
+    <div class="course_body">
+      <app-course-module
+        *ngFor="let module of course.modules"
+        [module]="module"
+      ></app-course-module>
+    </div>
+  </div>
+</div>
