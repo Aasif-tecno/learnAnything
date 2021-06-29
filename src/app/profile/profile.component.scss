@@ -1,0 +1,107 @@
+.course-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  .course__upper {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+
+    .semi-round {
+      width: 110%;
+      border-radius: 0 0 50% 50%;
+      // background: #2d3846;
+      background-color: rgb(107, 127, 153);
+      height: 100%;
+      position: absolute;
+      left: -5%;
+    }
+    .course__upper__back {
+      position: absolute;
+      color: #c8d2db;
+      font-size: 16px;
+      top: 32px;
+      display: flex;
+      width: 100%;
+      max-width: 1492px;
+      z-index: 1;
+      .course__upper__back-content {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s;
+        // .icon {
+        //   height: 15px;
+        //   width: 15px;
+        //   margin-right: 8px;
+        //   // transform: rotate(90deg);
+        // }
+      }
+    }
+  }
+  .container {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+
+      flex-direction: row;
+      .user_image {
+        width: fit-content;
+        img {
+          width: 210px;
+          height: 210px;
+          border-radius: 50%;
+        }
+      }
+      .user_details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 120%;
+          margin-right: 24px;
+        }
+        .user_xp {
+          display: inline-flex;
+          align-items: center;
+          padding: auto;
+          img {
+            width: 25px;
+          }
+        }
+        .user_level {
+          display: inline-flex;
+          align-items: center;
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+    .course_progress {
+      background: #fff;
+      border-radius: 8px;
+      padding: 24px;
+      box-shadow: 0 0 8px rgb(62 79 102 / 10%);
+      margin: 32px auto;
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+      }
+    }
+  }
+}

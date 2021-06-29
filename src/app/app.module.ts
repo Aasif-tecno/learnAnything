@@ -10,6 +10,7 @@ import { CourseItemComponent } from './courses/course-item/course-item.component
 import { CourseService } from './courses/course.service';
 import { CourseDetailComponent } from './courses/course-detail/course-detail.component';
 import { CourseModuleComponent } from './courses/course-detail/course-module/course-module.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CourseModuleComponent } from './courses/course-detail/course-module/cou
     CourseItemComponent,
     CourseDetailComponent,
     CourseModuleComponent,
+    ProfileComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [CourseService],

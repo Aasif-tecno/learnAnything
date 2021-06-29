@@ -3,6 +3,7 @@
   width: 174px;
   height: 196px;
   background: #f9f9fa;
+  // background: #2d3846;
   border: 4px solid #dce2e5;
   box-sizing: border-box;
   border-radius: 10px;
@@ -20,6 +21,10 @@
     transform: scale(1.08);
     box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
       rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+  }
+  .img {
+    width: 20px;
+    height: 20px;
   }
   .card-title {
     font-weight: bold;

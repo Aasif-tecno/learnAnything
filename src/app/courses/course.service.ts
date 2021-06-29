@@ -223,46 +223,141 @@ export class CourseService {
         ),
       ]
     ),
-    // new Course(
-    //   'Python',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/python.png'
-    // ),
-    // new Course(
-    //   'Java',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png'
-    // ),
-    // new Course(
-    //   'JavaScript',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/javascript.png'
-    // ),
-    // new Course(
-    //   'Ruby',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/ruby-programming-language.png'
-    // ),
-    // new Course(
-    //   'HTML',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/html-5--v1.png'
-    // ),
-    // new Course(
-    //   'CSS',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/css3.png'
-    // ),
-    // new Course(
-    //   'React',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/react-native.png'
-    // ),
-    // new Course(
-    //   'Angular',
-    //   'A super-tasty Schintzel - just awsome',
-    //   'https://img.icons8.com/color/48/000000/angularjs.png'
-    // ),
+    new Course(
+      'C#',
+      'With our interactive C# Tutorial, you will learn C# programming on-the-go! Practice writing C# code, collect points, & show off your skills.',
+      'https://img.icons8.com/color/48/000000/c-plus-plus-logo.png',
+      [
+        new Modules(
+          'Basic Concept',
+          7,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1220.png'
+        ),
+        new Modules(
+          'String & Variables',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Control Stucuture',
+          13,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Function & Modules',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1222.png'
+        ),
+      ]
+    ),
+    new Course(
+      'Kotlin',
+      'Kotlin is a modern and powerful cross-platform programming language, designed to interoperate with Java. In this course, we’ll cover the main concepts of Kotlin, as well as build real-life projects and solve different coding challenges.',
+      'https://img.icons8.com/color/48/000000/kotlin.png',
+      [
+        new Modules(
+          'Basic Concept',
+          7,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1220.png'
+        ),
+        new Modules(
+          'String & Variables',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Control Stucuture',
+          13,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Function & Modules',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1222.png'
+        ),
+      ]
+    ),
+    new Course(
+      'Swift 4',
+      'Learn all the main concepts of Swift programming and apply your newly gained knowledge to create your own, fully functioning iOS app!',
+      'https://img.icons8.com/color/48/000000/swift.png',
+      [
+        new Modules(
+          'Basic Concept',
+          7,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1220.png'
+        ),
+        new Modules(
+          'String & Variables',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Control Stucuture',
+          13,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Function & Modules',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1222.png'
+        ),
+      ]
+    ),
+    new Course(
+      'PHP',
+      'PHP enables you to create dynamic web pages, develop websites, and generate dynamic content. Learn the most widely used web programming language!',
+      'https://img.icons8.com/officel/40/000000/php-logo.png',
+      [
+        new Modules(
+          'Basic Concept',
+          7,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1220.png'
+        ),
+        new Modules(
+          'String & Variables',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Control Stucuture',
+          13,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Function & Modules',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1222.png'
+        ),
+      ]
+    ),
+    new Course(
+      'Data Science',
+      'Data Science is a must know discipline in the era of big data. Today, companies and industries must make data-driven decisions to survive. Learn how Data Science works.',
+      'https://img.icons8.com/color/48/000000/combo-chart--v2.png',
+      [
+        new Modules(
+          'Basic Concept',
+          7,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1220.png'
+        ),
+        new Modules(
+          'String & Variables',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Control Stucuture',
+          13,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1524.png'
+        ),
+        new Modules(
+          'Function & Modules',
+          10,
+          'https://sololearnuploads.azureedge.net/uploads/modules/1073/1222.png'
+        ),
+      ]
+    ),
   ];
 
   constructor() {}

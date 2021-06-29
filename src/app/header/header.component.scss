@@ -1,9 +1,17 @@
 .navbar {
-  min-height: 80px;
-  // box-shadow: rgb(0 0 0 / 69%) 0px 16px 30px -5px,
-  //   rgb(0 0 0 / 73%) 0px 6px 6px -5px;
+  min-height: 110px;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  font-family: "Roboto", sans-serif;
+
+  ul {
+    li {
+      font-size: 18px;
+      letter-spacing: 2.5px;
+      cursor: pointer;
+      margin: 10px;
+    }
+  }
 }
 .navbar-brand {
-  font-size: 30px;
+  font-size: 28px;
 }
